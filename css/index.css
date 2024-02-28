@@ -28,3 +28,25 @@
  ol {
 	 color: #008000
 }
+.main {
+    width: 80%;
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+
+.col-1-2, .col-2-2 {
+    width: 250px; 
+    height: 250px; 
+    margin: 10px; 
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+}
